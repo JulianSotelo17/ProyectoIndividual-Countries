@@ -1,0 +1,39 @@
+.div-paginado {
+    display: flex;
+    justify-content: space-between; /* Ajusta el espacio entre los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin: 15px 0;
+    text-align: center;
+    width: 10px;
+  }
+  
+  /* Estilos adicionales según sea necesario */
+.button-paginado{
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #bd0404;
+  color: #e4e4e4
+}
+
+.button-paginado:hover{
+  background-color: #ee7008;
+}
+
+.button-paginado:active{
+  background-color: rgb(235, 136, 54);
+}
+
+.p-paginado{
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #bd0404;
+  border-radius: 100px;
+  width: 100px;
+  padding: 10px;
+}

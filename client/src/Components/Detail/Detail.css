@@ -1,0 +1,53 @@
+.div-container-detail{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    background-color: grey;
+    color: white;
+}
+
+.button-detail{
+    background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.imagen-detail{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;   
+    border: 5px white;
+}
+
+.p-detail{
+    margin: 10px 0;
+}
+
+.actividad-p-detail{
+    margin-bottom: 5px;
+}
+
+.actividad-detail{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: brown;
+}
+
+.div-imagen-detail{
+    border: 1px rgb(110, 22, 22);
+}
+
+.div-nombre-detail{
+    text-align: center;
+}

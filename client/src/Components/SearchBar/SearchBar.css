@@ -1,0 +1,26 @@
+.input-busqueda{
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.input-busqueda[type="search"]:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+    outline: none; /* Eliminar el contorno predeterminado en algunos navegadores */
+  }
+
+
+
+.input-busqueda[type="search"]::-webkit-search-icon {
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  background-size: 16px 16px;
+}
+
+ 

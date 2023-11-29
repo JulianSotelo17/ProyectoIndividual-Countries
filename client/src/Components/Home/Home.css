@@ -1,0 +1,59 @@
+.NavBar{
+    /* width: 100%;
+    background-color: rgba(0, 0, 0, 0.705); */
+    /* float: left;    */
+    display: flex;
+    justify-content: space-between; /* Ajusta el espacio entre los elementos */
+    align-items: center;
+    background-color: rgba(160, 101, 25, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom:20px ;
+    padding-top: 20px;
+    color: azure;
+}
+
+.NavBar h1 {
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+  }
+  
+  .NavBar button {
+    margin-left: 10px; /* Ajusta el espacio entre los botones */
+    color: white;
+  }
+
+.logo{
+  width: 100px;
+  
+}
+
+.button-home{
+  padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #bd0404;
+}
+
+.button-home:hover{
+  background-color:  #ee7008;
+}
+
+.button-home:active{
+  background-color: rgb(235, 136, 54);
+}
+
+.div-home-paginado{
+  display: flex;
+  align-items: center;
+}
+
+.logo-home{
+  width: 200px;
+  height: 200px;
+}
+
+

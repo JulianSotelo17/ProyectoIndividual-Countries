@@ -1,0 +1,48 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+  
+
+  
+  color: rgb(0, 0, 0);
+  background-color: #fffffffd;
+  background-image: url('./assets/background-landingpage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+a {
+  font-weight: 500;
+  color: #180027;
+  text-decoration: inherit;
+}
+
+
+body {
+  
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px ;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgba(5, 185, 155, 0.5);
+  cursor: pointer;
+  transition: border-color 3s;
+}
+button:hover {
+  background-color: rgba(10, 189, 159, 0.849);
+}

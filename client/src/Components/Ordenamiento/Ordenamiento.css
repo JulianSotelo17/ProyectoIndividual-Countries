@@ -1,0 +1,28 @@
+.div-ordenamiento{
+    margin: 15px 0;
+  text-align: center;
+}
+
+.button-ordenamiento{
+    padding: 10px 20px;
+  margin: 5px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #bd0404;
+}
+
+.button-ordenamiento:hover{
+    background-color: #ee7008;
+}
+
+.button-ordenamiento:active{
+    background-color: rgb(235, 136, 54);
+}
+
+button[value="NONE"] {
+    color: #777; /* Color gris para indicar que está desactivado */
+  }
+

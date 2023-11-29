@@ -1,0 +1,31 @@
+.title-LandingPage{
+    color: white;
+}
+
+.button-LandingPage{
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #bd0404;
+  }
+  
+  .button-LandingPage:hover{
+    background-color:  #ee7008;
+  }
+  
+  .button-LandingPage:active{
+    background-color: rgb(235, 136, 54);
+  }
+
+.landingPage-container{
+    border: 3px white;
+    background-color: rgb(211, 162, 162);
+    border-radius: 10px;
+    width: 500px;
+    
+    
+}

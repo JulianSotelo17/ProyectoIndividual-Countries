@@ -1,0 +1,23 @@
+.div-filtrado{
+    margin: 15px 0;
+}
+
+.select-filtrado{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.option-filtrado{
+    font-size: 14px;
+}
+
+.select:focus{
+    border-color: #2196F3;
+  box-shadow: 0 0 8px rgba(33, 150, 243, 0.6);
+  outline: none;
+}
